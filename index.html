@@ -4,18 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
     <title>My Curriculum Vitae</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Hi! Welcome to my Curriculum Vitae.</h1>
-        <p class="tagline">Hope you find it interesting!!</p>
-    </div>
-    <div class="section" id="square">        
-        <div>
-          <img class="circular--square" src="avatar.jpg" />
+    <header class="header">
+        <nav class="navbar navbar-style">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href=""><img class="logo" src="avatar.jpg"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="micon">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Work Experience</a></li>
+                        <li><a href="#">Hobbies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="assets/img/model.png" class="img-responsive">
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="big-text">Hi! I'm Rhoneth.</h1>
+                    <p>Thank you for visiting my page, hope you find it interesting.</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </header>
 </body>
 </html>
